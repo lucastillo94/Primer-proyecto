@@ -1,77 +1,94 @@
-/*
-    Comentarios en CSS
-*/
 body{
+    font-family: 'Noto Sans', sans-serif;
     font-size: 150%;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 250px;
+    padding-right: 250px;
+    /*border: 1px solid rgb(83, 83, 83);*/
+}
+
+header{
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+}
+
+img{
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+h1{
+    padding: 20px;
+    margin: 0px;;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    color: white;
+}
+
+header h2{
+    font-size: 200%;
+    font-weight: normal;
+    margin: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(180, 180, 180);
 }
 
 section span{
     float: left;
-    border: 2px solid grey;
+    background-color: rgb(223, 223, 223);
     padding: 5px;
+    padding-bottom: 7px;
     margin: 0px;
-    /*margin-right: 75px;
-    font-weight: bold;*/
     color: black;
 }
 
-h1{
-    font-family: 'Noto Sans', sans-serif;
-    /*border: 10px solid blue;
-    padding: 20px;
-    margin: 5px;*/
-    font-weight: bold;
-    font-size: 300%;
-    text-align: center;
-    color: brown;
-}
-
-h2{
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: bold;
-    font-size: 150%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: brown;
-}
-
 h3{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(61, 123, 216);
 }
 
-p{
-    border: 5px solid green;
-    padding: 20px;
-    margin: 10px;
-    font-weight: bold;
-    color: green;
+h3#perfil{
+    margin-top: 0px;
+    padding-top: 10px;
 }
 
-img{
-    float: right;
-    margin-right: 75px;
+h4{
+    margin: 0px;
+}
+
+h5{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(83, 83, 83);
 }
 
 ul{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0px;
 }
 
-span h2{
-    margin-left: 220px;
-}
-
-span ul{
-    margin-left: 220px;
-}
-
-ol{
-margin-top: 5px;
-margin-bottom: 5px;
-}
-
-li{
-    margin-top: 5px;
+ul.exp{
     margin-bottom: 5px;
+}
+
+section#experiencias{
+    margin-left: 370px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+p{
+    margin: 0px;
 }
